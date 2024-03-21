@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+
+#header{
+    width: 100%;
+    height: 20vh;
+    background-color:beige;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}#body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.body-text{
+    color:black;
+    height: 90vh;
+    width: 100%;
+    background-image: url(images/abos.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; 
+}
+.body-text h1{
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+}
+.body-text h2{
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+    font-weight: 700;
+}
+.body-text p{
+    width: 40%;
+    padding: 40px;
+    color:rgb(20, 211, 93);
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.body{
+    width: 100%;
+    
+}
+.body-body{
+    background-color: rgb(185, 196, 196);
+    width: 80%;
+    height: 30vh;
+    align-items: center;
+    margin-left: 10%;
+    padding: 70px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.mission{
+    background-color: rgb(163, 149, 149);
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+    margin-left: 10%;
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+.cont-footer{
+    width: 100%;
+    height: 30vh;
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5%;
+    
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;    
+    font-size: 30px;
+    position: relative
+
+}
